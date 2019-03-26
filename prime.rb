@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def prime?(number)
   return false if number < 2
   (2..number - 1).each do |x|
@@ -24,6 +25,22 @@ end
 #   end
 # end
 
+=======
+def prime?(num)
+  if num <= 0
+    return false
+  elsif num != 2 && num % 2 == 0
+    return false
+    num <= 7 && (num != 1 && num != 4 && num != 6)
+    return true
+  elsif num > 7 && (num % 3 != 0 && num % 5 != 0 && num % 7 != 0)
+    return true
+  else
+    false
+  end
+end
+
+>>>>>>> fda79316e1c7c4e7f159a73a9b3323a13f99bf9a
 
 
 
